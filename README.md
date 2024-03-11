@@ -1,5 +1,5 @@
 # Research-Paper
-"Can ChatGPT Predicts Indian Stock Market Price Movements". This research paper talks about the potential of ChatGPT in the realm of Indian stock market.
+"Can ChatGPT Predicts Indian Stock Market Price Movements?". This research paper talks about the potential of ChatGPT in the realm of Indian stock market.
 
 # Gathering Data
 I have made GoogleNewsFetch python file for getting the news headlines from google news. It is the optimal method that i have discoverd that was free and would provide the data but it was very hectic task. Here, instead of getting all the news headlines from a single newpaper with all the companies that are listed, i had to get new headlines from a single company and collect it one by one with the filter provided by google news. You can select the date and paste the link from any newpaper (here i have taken The Times of India and The Economic Times) with the company name so that it gives you that exact news from that exasct company at that point of time which is required.  
