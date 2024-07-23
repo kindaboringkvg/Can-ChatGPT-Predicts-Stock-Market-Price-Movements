@@ -26,6 +26,6 @@ This repository holds all the datasets that I collected manually and the scripts
 
 The repository also includes result figures and a link to the full research paper. 
 
-You can check my research paper through the link provided [here](add your link here). (If link is not working then it means my paper is still under review sorry!)
+You can check my research paper through the link provided [here]. (If link is not working then it means my paper is still under review sorry!)
 
 This work aims to identify if one can use ChatGPT to predict stock market movements based on news headlines.
