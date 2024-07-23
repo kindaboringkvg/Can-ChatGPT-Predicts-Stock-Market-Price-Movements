@@ -1,7 +1,3 @@
-Certainly! Here's the updated README file description for your GitHub repository:
-
----
-
 # Research Paper: "Can ChatGPT Predict Indian Stock Market Price Movements?"
 
 This research paper explores the potential of ChatGPT in predicting price movements in the Indian stock market.
