@@ -1,19 +1,35 @@
-# Research-Paper
-"Can ChatGPT Predicts Indian Stock Market Price Movements?". This research paper talks about the potential of ChatGPT in the realm of Indian stock market.
+Certainly! Here's the updated README file description for your GitHub repository:
 
-# Gathering Data
-I have made GoogleNewsFetch python file for getting the news headlines from google news. It is the optimal method that i have discoverd that was free and would provide the data but it was very hectic task. Here, instead of getting all the news headlines from a single newpaper with all the companies that are listed, i had to get new headlines from a single company and collect it one by one with the filter provided by google news. You can select the date and paste the link from any newpaper (here i have taken The Times of India and The Economic Times) with the company name so that it gives you that exact news from that exasct company at that point of time which is required.  
+---
 
-I then made the list of the companies that are listed in the BSE (Bombay Stiock Exchange) and with the i collected all the newsheadlines accordingly.
+# Research Paper: "Can ChatGPT Predict Indian Stock Market Price Movements?"
 
-# ChatGPT 
-For determining the potential of ChatGPT i designed a prompt that we could as the model and with that it would give the result and i stored with the new headlines.
-I have used ChatGPT3.0 as it is available free worldwide. The prompt also asks the model the dates of the buying and selling of the stocks in order to get profit. It responds to "YES", "NO" "UNKNOWN", this could also be used for comparing it with other sentiment analysis tools.
-As we know ChatGPT3.0 is updated till sept 2019 (it is now updated further but at the time when the process was going on it was not updated), the dataset collected was after sept 2019 so that the model does not have any previous training or knowledge.
+This research paper explores the potential of ChatGPT in predicting price movements in the Indian stock market.
 
-# Sentiment Analysis Tool (VARDAR)
-It is a famous tool used for sentiment analysis and it is the best as stated in some research papers, so i have compared my results with this tool's results.
+## Gathering Data
 
-# Results
-I have plotted the results of one company (Reliance) to showcase how to visualize data. You can do similar results with other companies with the data given.
-with the stocks buying and selling we see the profit and loss 
+To gather data, I created a Python script named `GoogleNewsFetch` that retrieves news headlines from Google News. The optimal method I discovered, which is free, required fetching news headlines for each company individually using Google News filters. This allowed me to collect specific news articles from newspapers like The Times of India and The Economic Times for each company listed on the Bombay Stock Exchange (BSE).
+
+## ChatGPT
+
+To determine the potential of ChatGPT, I designed a prompt that queries the model using the news headlines. I used ChatGPT 3.0 for this purpose, as it is freely available worldwide. The prompt asks the model whether to buy or sell stocks on specific dates to achieve a profit, with responses of "YES," "NO," or "UNKNOWN." This can also be compared with other sentiment analysis tools.
+
+Since ChatGPT 3.0 was updated only until September 2019 at the time of my research, I collected data after this date to ensure the model did not have prior knowledge.
+
+## Sentiment Analysis Tool (VADER)
+
+I compared ChatGPT's results with VADER, a well-regarded sentiment analysis tool as mentioned in several research papers.
+
+## Results
+
+I have plotted the results for one company (Reliance) to demonstrate data visualization. You can replicate these results for other companies using the provided data. The plots showcase the profits and losses based on stock buying and selling decisions.
+
+## Repository Contents
+
+This repository holds all the datasets that I collected manually and the scripts used to collect and process the data. To collect the dataset, I used Google News filters set to "All Time" and the `GoogleNewsFetch` Python script. By pasting the news link into the script, it saves the details in a CSV file. Data cleaning may be necessary depending on your specific needs.
+
+The repository also includes result figures and a link to the full research paper. 
+
+You can check my research paper through the link provided [here](add your link here). (If link is not working then it means my paper is still under review sorry!)
+
+This work aims to identify if one can use ChatGPT to predict stock market movements based on news headlines.
