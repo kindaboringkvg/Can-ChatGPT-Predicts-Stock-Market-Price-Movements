@@ -30,6 +30,6 @@ This repository holds all the datasets that I collected manually and the scripts
 
 The repository also includes result figures and a link to the full research paper.
 
-You can check my research paper through the link provided [here](https://www.dline.info/jdim/wp-content/uploads/2.pdf)
+You can check my research paper through the link provided [here](https://www.dline.info/fpaper/jdim/v22i3/jdimv22i3_2.pdf)
 
 This work aims to identify if one can use ChatGPT to predict stock market movements based on news headlines.
